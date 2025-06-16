@@ -29,3 +29,6 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/github.com/cesarflorescr/imgdocker:latest
+
+      - name: Buscando el archivo 
+        run: ls && echo "Fin del listado"

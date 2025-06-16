@@ -1,5 +1,7 @@
 import Jimp from 'jimp';
 
+
+
 const inputPath = './input.jpeg';
 const outputPath = './output.jpg';
 
