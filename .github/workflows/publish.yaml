@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/imagen-docker:latest
+          tags: ghcr.io/github.com/cesarflores.cr/imagen-docker:latest
