@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/cesarFloresCr/img-docker#readme",
   "dependencies": {
-    "jimp": "^1.6.0"
+    "jimp": "^0.16.1"
   }
 }

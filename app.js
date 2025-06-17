@@ -1,6 +1,6 @@
-import Jimp from 'jimp';
+//import Jimp from 'jimp';
 
-
+const  Jimp  = require("jimp");
 
 const inputPath = './input.jpeg';
 const outputPath = './output.jpg';
