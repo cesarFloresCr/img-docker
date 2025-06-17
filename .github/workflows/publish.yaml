@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/github.com/cesarflorescr/imgdocker:latest
+          tags: ghcr.io/cesarflorescr/imgdocker:latest
+      - name: Ejecutar app desde el contenedor Docker
+        run: docker run ghcr.io/cesarflorescr/imgdocker:latest
 
-      - name: Ejecutando app 
-        run: node app.js
